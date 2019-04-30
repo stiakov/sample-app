@@ -28,6 +28,10 @@
 
 .idea
 
+
+# Ignore Spring files.
+/spring/*.pid
+
 *.rbc
 capybara-*.html
 .rspec
