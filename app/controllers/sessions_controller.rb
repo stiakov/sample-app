@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       # Log the user in and redirect to the user's show page.
       helpers.log_in user
       params[:session][:remember_me] == '1' ? helpers.remember(user) : helpers.forget(user)
-      redirect_to user
+      helpers.redirect_back_or user
     else
       flash.now[:danger] = 'Invalid email/password combination' # Not quite right!
       render 'new'
