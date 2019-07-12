@@ -1,21 +1,5 @@
-# A sample Guardfile
-# More info at https://github.com/guard/guard#readme
-
-## Uncomment and set this to only include directories you want to watch
-# directories %w(app lib config test spec features) \
-#  .select{|d| Dir.exist?(d) ? d : UI.warning("Directory #{d} does not exist")}
-
-## Note: if you are using the `directories` clause above and you are not
-## watching the project directory ('.'), then you will want to move
-## the Guardfile to a watched dir and symlink it back, e.g.
-#
-#  $ mkdir config
-#  $ mv Guardfile config/
-#  $ ln -s config/Guardfile .
-#
-# and, you'll have to watch "config/Guardfile" instead of "Guardfile"
 # Defines the matching rules for Guard.
-guard :minitest, spring: "bin/rails test", all_on_start: false do
+guard :minitest, spring: true, all_on_start: false do
   watch(%r{^test/(.*)/?(.*)_test\.rb$})
   watch('test/test_helper.rb') { 'test' }
   watch('config/routes.rb')    { integration_tests }
@@ -27,7 +11,7 @@ guard :minitest, spring: "bin/rails test", all_on_start: false do
   end
   watch(%r{^app/views/([^/]*?)/.*\.html\.erb$}) do |matches|
     ["test/controllers/#{matches[1]}_controller_test.rb"] +
-        integration_tests(matches[1])
+    integration_tests(matches[1])
   end
   watch(%r{^app/helpers/(.*?)_helper\.rb$}) do |matches|
     integration_tests(matches[1])
@@ -47,7 +31,7 @@ guard :minitest, spring: "bin/rails test", all_on_start: false do
   end
   watch(%r{app/views/users/*}) do
     resource_tests('users') +
-        ['test/integration/microposts_interface_test.rb']
+    ['test/integration/microposts_interface_test.rb']
   end
 end
 
