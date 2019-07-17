@@ -12362,3 +12362,4 @@ DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is depr
   [1m[36mMicropost Load (0.6ms)[0m  [1m[34mSELECT  "microposts".* FROM "microposts" WHERE (user_id = 1) ORDER BY "microposts"."created_at" DESC LIMIT ?[0m  [["LIMIT", 11]]
   [1m[36mMicropost Load (0.6ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = ? ORDER BY "microposts"."created_at" DESC[0m  [["user_id", 1]]
   [1m[36mMicropost Load (0.5ms)[0m  [1m[34mSELECT "microposts".* FROM "microposts" WHERE (user_id = 1) ORDER BY "microposts"."created_at" DESC[0m
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /Users/stiakov/Documents/microverse/the_odin_project/sample_app/config/initializers/callback_terminator.rb:6)

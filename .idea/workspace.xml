@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4cddb375-a2d2-4c4a-9a29-6b465c2787f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/micropost.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/micropost.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c2a636a4-255d-4a7d-a117-c9ac07811ee6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -32,37 +32,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Rails sample_app: development" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Rails sample_app: development" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Rails sample_app: development" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Rails sample_app: development" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="microposts: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Rails sample_app: development" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="users: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileEditorManager">
@@ -96,7 +66,20 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -167,7 +150,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="advanced-login" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -429,15 +412,16 @@
       <workItem from="1562889490246" duration="419000" />
       <workItem from="1562944978841" duration="5337000" />
       <workItem from="1563215722312" duration="6880000" />
-      <workItem from="1563293695089" duration="17750000" />
+      <workItem from="1563293695089" duration="18328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88808000" />
+    <option name="totallyTimeSpent" value="89386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="573" y="0" width="867" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.42303032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -453,7 +437,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49928468" weight="0.32891566" />
       <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.48969698" visible="true" weight="0.28554216" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.510303" side_tool="true" visible="true" weight="0.28554216" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.510303" side_tool="true" weight="0.28554216" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.5391414" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -736,13 +720,6 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20190717212230_add_picture_to_microposts.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/microposts_interface_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -824,8 +801,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
